@@ -3,7 +3,7 @@ package statistics.matcher;
 
 import statistics.Player;
 
-public class Or implements Matcher {
+public class Or extends Matcher {
     
     private Matcher[] matchers;
 

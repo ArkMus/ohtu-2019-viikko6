@@ -3,6 +3,11 @@ package statistics.matcher;
 
 import statistics.Player;
 
-public interface Matcher {
-    boolean matches(Player p);
+public class Matcher {
+    public Matcher(){
+
+    }
+    public boolean matches(Player p){
+        return true;
+    }
 }

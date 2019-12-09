@@ -4,7 +4,7 @@ package statistics.matcher;
 import java.lang.reflect.Method;
 import statistics.Player;
 
-public class HasFewerThan implements Matcher {
+public class HasFewerThan extends Matcher {
     
     private int value;
     private String fieldName;

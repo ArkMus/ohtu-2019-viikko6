@@ -2,7 +2,7 @@ package statistics.matcher;
 
 import statistics.Player;
 
-public class And implements Matcher {
+public class And extends Matcher {
 
     private Matcher[] matchers;
 

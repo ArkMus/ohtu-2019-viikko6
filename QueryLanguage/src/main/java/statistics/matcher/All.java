@@ -3,7 +3,7 @@ package statistics.matcher;
 
 import statistics.Player;
 
-public class All implements Matcher {
+public class All extends Matcher {
     
     public All() {
     }
